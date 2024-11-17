@@ -14,8 +14,8 @@ Global $setacl = (@OSArch = 'X86') ? '"' & @TempDir & "\SetACLx32.exe" & '"' : '
 Global Const $version = 21
 
 Global $isAuto = isAuto()
-Global Const $urlForum = "https://github.com/J2TEAM/idm-trial-reset/discussions"
-Global Const $urlDownload = "https://github.com/J2TEAM/idm-trial-reset/releases"
+Global Const $urlForum = ""
+Global Const $urlDownload = ""
 
 Global $allkey[6]
 $allkey[0] = '{6DDF00DB-1234-46EC-8356-27E7B2051192}'
@@ -123,7 +123,7 @@ Func Register($FName = "IDM trial reset")
 EndFunc   ;==>Register
 
 Func GotUpdate()
-	Local $info = InetRead('http://pastebin.com/raw/uYr0cstV', 1)
+	Local $info = InetRead('', 1)
 	If $info <> '' Then
 		Local $latest = _StringBetween(BinaryToString($info), "<version>", "</version>")[0]
 		Return ($latest > $version)
