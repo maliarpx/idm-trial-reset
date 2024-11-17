@@ -1,10 +1,10 @@
 # IDM trial reset
 
-[![GitHub release](https://img.shields.io/github/release/J2TeaM/idm-trial-reset.svg?maxAge=2592000)](https://github.com/J2TeaM/idm-trial-reset/releases/latest)
-[![license](https://img.shields.io/github/license/J2TeaM/idm-trial-reset.svg?maxAge=2592000)](https://github.com/J2TeaM/idm-trial-reset/blob/master/LICENSE)
-[![Twitter Follow](https://img.shields.io/twitter/follow/juno_okyo.svg?label=Follow&maxAge=2592000)](https://twitter.com/juno_okyo)
+[![GitHub release](https://img.shields.io/github/release/maliarpx/idm-trial-reset.svg?maxAge=2592000)](https://github.com/maliarpx/idm-trial-reset/releases/latest)
+[![license](https://img.shields.io/github/license/maliarpx/idm-trial-reset.svg?maxAge=2592000)](https://github.com/maliarpx/idm-trial-reset/blob/master/LICENSE)
 
-Use IDM forever without cracking. If you can, [buy a license](https://j2team.dev/go/32449752) to support the developer.
+This is a better version of the program without suspicious links and stuff in the source code.
+Use IDM forever without cracking. 
 
 ## Screenshot
 
@@ -12,19 +12,17 @@ Use IDM forever without cracking. If you can, [buy a license](https://j2team.dev
 
 ## Download
 
-You can get the latest version [here](https://github.com/J2TeaM/idm-trial-reset/releases/latest).
+You can get the latest version [here](https://github.com/maliarpx/idm-trial-reset/releases/latest).
 
 ## Build from source
 
-If you want to create your own executable from the source code. Download [AutoIt](https://www.autoitscript.com/site/autoit/downloads/) and follow [this guide](https://www.autoitscript.com/autoit3/docs/intro/compiler.htm).
+If you want to create your own executable from the source code. Download [AutoIt](https://www.autoitscript.com/site/autoit/downloads/).
 
-## Learn AutoIt
-
-If you are interested in AutoIt programming, you can join my free course: https://j2team.teachable.com/p/hoc-lap-trinh-autoit
 
 ## Credits
 
 - idmresettrial (original author)
+- My good friend [Crunchy-dev](https://github.com/Crunchy-dev) who cleaned the app's source code.
 - [Helge Klein](https://helgeklein.com/) (for SetACL)
 
 ## License
