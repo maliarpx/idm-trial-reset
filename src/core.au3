@@ -14,6 +14,8 @@ Global $setacl = (@OSArch = 'X86') ? '"' & @TempDir & "\SetACLx32.exe" & '"' : '
 Global Const $version = 21
 
 Global $isAuto = isAuto()
+Global Const $urlForum = "https://github.com/J2TEAM/idm-trial-reset/discussions"
+Global Const $urlDownload = "https://github.com/J2TEAM/idm-trial-reset/releases"
 
 Global $allkey[6]
 $allkey[0] = '{6DDF00DB-1234-46EC-8356-27E7B2051192}'
