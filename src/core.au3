@@ -12,8 +12,6 @@ FileInstall('SetACLx64.exe', @TempDir & '\SetACLx64.exe', 1)
 Global $setacl = (@OSArch = 'X86') ? '"' & @TempDir & "\SetACLx32.exe" & '"' : '"' & @TempDir & "\SetACLx64.exe" & '"'
 
 Global Const $version = 21
-Global Const $urlForum = "https://github.com/J2TEAM/idm-trial-reset/discussions"
-Global Const $urlDownload = "https://github.com/J2TEAM/idm-trial-reset/releases"
 
 Global $isAuto = isAuto()
 
